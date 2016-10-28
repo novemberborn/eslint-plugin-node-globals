@@ -1,0 +1,32 @@
+{
+  "name": "eslint-plugin-node-globals",
+  "version": "0.0.0",
+  "description": "Alternative ESLint environment for use with Node.js, without deprecated globals",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/novemberborn/eslint-plugin-node-globals.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintplugin"
+  ],
+  "author": "Mark Wubben (https://novemberborn.net/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/novemberborn/eslint-plugin-node-globals/issues"
+  },
+  "homepage": "https://github.com/novemberborn/eslint-plugin-node-globals#readme",
+  "dependencies": {
+    "globals": "9.12.0"
+  },
+  "devDependencies": {
+    "standard": "^8.5.0"
+  },
+  "engines": {
+    "node": ">=4"
+  }
+}
